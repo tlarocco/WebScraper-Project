@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Tutorial</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1>Welcome to Ty's Weather App</h1>
+    <p>Please type in your zip code for an up-to-date forcast for you area.</p>
+    <input type="text" id="myText">
+    <button onclick="getWeather(zip)">Get forecast</button>
+    <p id="temp"></p>
+    <script>
+        function getWeather(zip) {
+            document.getElementById('temp').innerHTML = "Temp is ";
+        }
+    </script>
+</body>
+
+</html>
